@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: data-processing-service
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cache:
+    type: caffeine
+    caffeine:
+      spec: maximumSize=100,expireAfterWrite=5m
+
+server:
+  port: 8085
+
+api:
+  metals:
+    key: 50bffe89e4c810ef1da5786340184c3b
+  yahoo:
+    base-url: https://yahoo-finance16.p.rapidapi.com/api
+    key: b69bba5ecemshce75b525bc40a4dp17915ajsn903301d5036
+    host: yahoo-finance16.p.rapidapi.com
+
+# Disable Consul for now
+spring.cloud.consul.enabled: false
