@@ -1,7 +1,7 @@
 package com.example.data_processing_service.service;
 
 import com.example.data_processing_service.config.RabbitMQConfig;
-import com.example.data_processing_service.dto.PriceRequest;
+import com.example.data_processing_service.dto.request.PriceRequest;
 import com.example.data_processing_service.dto.response.PriceResponse;
 import org.springframework.cache.annotation.Cacheable;
 

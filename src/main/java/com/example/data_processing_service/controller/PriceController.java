@@ -1,6 +1,6 @@
 package com.example.data_processing_service.controller;
 
-import com.example.data_processing_service.dto.PriceRequest;
+import com.example.data_processing_service.dto.request.PriceRequest;
 import com.example.data_processing_service.dto.response.PriceResponse;
 import com.example.data_processing_service.service.PriceFetchingService;
 import lombok.RequiredArgsConstructor;

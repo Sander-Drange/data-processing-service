@@ -1,4 +1,4 @@
-package com.example.data_processing_service.dto;
+package com.example.data_processing_service.dto.request;
 
 import lombok.*;
 
